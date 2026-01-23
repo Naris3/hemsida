@@ -1,0 +1,218 @@
+html,body {
+    font-style: italic;
+    background-color:#fff4d5;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.mainmenu {
+    display: flex;
+    background-color: rgb(255, 229, 196);
+    color: darkslategray;
+    padding: 0;
+    margin: 0;
+    height: 75px;
+    list-style: none;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+.mainmenu li {
+    margin: 0 15px;
+    font-size: 25px;
+}
+.mainmenu a{
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(100, 10, 10);
+}
+.startpage-bild {
+    position: relative;
+    display: flex; 
+    justify-content: center;
+    align-items:center;
+}
+.startpage-bild img {
+    height: 60%;
+    width: 100%;
+}
+.text-overlay {
+    position: absolute;
+    width: 50%;
+    height: 40%;
+    bottom: 0;
+    text-align: center;
+    align-content: center;
+    background-color: rgb(255, 229, 196);
+    color: black;
+    font-size: 20px;
+    overflow: auto;
+}
+.startpage-text{
+    margin-top: 5%;
+    text-align: center;
+}
+.startpage-text img{
+    width: 35%;
+    height: auto;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 10px auto;
+    margin-top: 20px;
+    max-width: 1000px;
+    background-color: #F5E3CB;
+    box-shadow: 0 4px 12px rgb(112, 94, 94);
+}
+.startpage-text h1 {
+    font-size: 30px;
+    background-color: rgb(248, 140, 140);
+    border-radius: 15px;
+    padding: 25px;
+    margin: 10px auto;
+    max-width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgb(81, 2, 2);
+}
+.startpage-text h2 {
+    text-decoration: underline rgb(147, 3, 3);
+    font-size: 25px;
+}
+.startpage-text p{
+    line-height: 10px;
+    font-size: 20px;
+}
+.startpage-text2 {
+    background-color: brown;
+    padding: 25px;
+    margin: 10px auto;
+    max-width: 500px;
+    background-color: #F5E3CB;
+    box-shadow: 0 4px 12px rgb(201, 124, 124);
+    margin-top: 20px;
+}
+.startpage-text h2:hover,:focus {
+    color: rgb(100, 6, 6);
+    cursor: pointer;
+    transform: scale(1.4);
+}
+.startpage-text h2:active {
+    transform: scale(1);
+}
+
+.produkter {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 20px;
+    margin-top: 75px;
+}
+.produkt-item img{
+    height: auto;
+    width: 100%;
+    border-radius: 12px;
+}
+.produkt-item p,h2 {
+    font-size: 25px;
+    text-align: center;
+}
+.produkter h2:hover,:focus {
+    color: rgb(100, 6, 6);
+    cursor: pointer;
+    transform: scale(1.4);
+}
+.produkter h2:active {
+    transform: scale(1);
+}
+.head {
+    color:brown;
+    text-align: center;
+    font-size: 25px;
+}
+.om-oss {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    max-width: 100%;
+    margin: 0 auto;
+    align-items: center;
+}
+.innehall {
+    display: grid;
+    gap: 20px;
+}
+
+.om-oss-bild img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.text {
+    font-size: 20px;
+    padding: 20px;
+    background: #f4dccb;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.kontakt-sida{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    gap: 1rem;
+    margin-top: 5%;
+}
+.kontakt-bild img {
+    display: block;
+    width: 600px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.kontakt-text{
+    flex: 1;
+    font-size: 25px;
+    color: darkslategrey;  
+    text-align: center;
+    padding: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.footer:hover {
+    color:black;
+}
+footer {
+  width: 100%;
+  background-color:rgb(255, 229, 196);
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  box-sizing: border-box;  
+}
+
+footer div {
+  width: 33%;
+  text-align: left;
+}
+
+footer h3 {
+  color: darkslategray;
+  font-size: 20px;
+}
+
+footer p, footer li {
+  color: #000000;
+  font-size: 15px;
+}
+
+footer li:hover {
+  color: rgb(171, 0, 0);
+  cursor: pointer;
+}
+
