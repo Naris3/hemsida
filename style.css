@@ -178,7 +178,6 @@ html,body {
     font-size: 25px;
     color: darkslategrey;  
     text-align: center;
-    padding: auto;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
@@ -215,4 +214,5 @@ footer li:hover {
   color: rgb(171, 0, 0);
   cursor: pointer;
 }
+
 
