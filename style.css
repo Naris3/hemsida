@@ -197,7 +197,6 @@ footer {
 
 footer div {
   width: 33%;
-  font-size:24px;
   text-align: left;
   margin:5px;
 }
@@ -209,7 +208,7 @@ footer h3 {
 
 footer p, footer li {
   color: #000000;
-  font-size: 15px;
+  font-size: 24px;
 }
 
 footer li:hover {
