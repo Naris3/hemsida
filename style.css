@@ -206,6 +206,11 @@ footer h3 {
   font-size: 20px;
 }
 
+footer li{
+   margin:10px;
+}
+
+
 footer p, footer li {
   color: #000000;
   font-size: 15px;
